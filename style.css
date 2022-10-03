@@ -1,22 +1,103 @@
-.carre {
-    height: 200px;
-    width: 200px;
-    background-color: rgb(94, 62, 136);
-    margin: 10px;
-}
 
-.carree {
+
+body {
+    background-image:url(burger-fond1.jpg);
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    background-repeat:no-repeat;
+    background-position:center center;
+    font-family: monospace ;
+    }
+
+
+
+nav{
+    background: #B87D5C; 
+    color: rgb(0, 0, 0);
+    padding: 0.5em 0;
+    position: fixed; 
+    text-align: center; 
+    width: 100%; 
+    top: 0; 
+    left: 0; 
+    }
+    nav  a{ 
+    padding: 0.5em 2em; 
+    color: rgb(0, 0, 0); 
+    text-decoration: none; 
+    height: 33px; 
+    }
+    nav  a:hover{ 
+    background: #d42c52; 
+    }
+    #contenu{
+    border: 2px solid #336699; 
+    margin: 40px 0 0 0; 
+    }
+
+
+
+.titre {
+    color: aliceblue;
+    text-align: center;
+    left:40px;
+    top:30px;   
+    }
+
+
+
+div#menu_en_tete {
+    height:200px;
+    position:relative;
+    left:600px;
+    top:900px; 
+    color: white;
+    text-align: center;
+    font-family: monospace ;
+    font-size: larger;
+    }
+
+
+
+div#texte_en_tete {
+    position:relative;
+    left:600px;
+    top:900px; 
+    color: white;
+    text-align: start;
+    font-family: monospace ;
+    font-size: larger;
+    }
+
+
+
+.steak{
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row; 
-    justify-content: center;      
-}
+    width: 30%;
+    height: 30%;
+    }
 
-/* .carre:nth-child(3), .carre:nth-child(12){
-    background-color: rgb(229, 215, 16);
-} */
 
-.yellow{
-    background-color: rgb(229, 215, 16);
-}
+
+.fromage{
+    display: flex;
+    width: 30%;
+    height: 30%;
+    text-align: right;
+    }
+
+.pain{
+    display: flex;
+    width: 30%;
+    height: 30%;
+    text-align: right;
+    }
+
+
+
+
+
+
+
 
